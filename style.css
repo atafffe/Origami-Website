@@ -1,0 +1,55 @@
+
+h1 {
+    color:red;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+* {
+    border: solid;
+} 
+.header{
+ background-color: blueviolet;
+ display: flex;
+ justify-content: space-between;
+ font-family: "Times New Roman", Times, serif;
+ 
+}
+
+.site-description{
+    
+    display: flex;
+flex-direction: column;
+justify-content: first baseline;
+}
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+a:link {
+    color: aqua;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+.origami {
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+    font-family: fantasy;
+    width: 310px;
+}
+
+.origami:hover {
+    transform: scale(1.2);
+}
